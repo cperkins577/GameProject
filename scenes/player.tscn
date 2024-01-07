@@ -666,6 +666,8 @@ sprite_frames = SubResource("SpriteFrames_mkrgd")
 animation = &"down_idle"
 autoplay = "down_idle"
 
+[node name="AnimationTree" type="AnimationTree" parent="AnimatedSprite2D"]
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1.5, 3)
 shape = SubResource("RectangleShape2D_v3ofe")
