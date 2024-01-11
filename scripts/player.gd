@@ -1,5 +1,5 @@
 extends CharacterBody2D
-@export var speed = 400
+@export var speed = 100
 var screen_size
 var current_dir
 
@@ -38,6 +38,7 @@ func _process(delta):
 	
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
+	move_and_slide()
 	
 func play_anim(type, dir):
 	var anim = $AnimatedSprite2D

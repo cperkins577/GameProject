@@ -651,10 +651,12 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v3ofe"]
-size = Vector2(31, 56)
+size = Vector2(31, 21)
 
 [node name="Player" type="CharacterBody2D"]
+y_sort_enabled = true
 position = Vector2(547, 275)
+collision_layer = 3
 motion_mode = 1
 script = ExtResource("1_kci0i")
 metadata/_edit_group_ = true
@@ -669,5 +671,5 @@ autoplay = "down_idle"
 [node name="AnimationTree" type="AnimationTree" parent="AnimatedSprite2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1.5, 3)
+position = Vector2(1.5, 20.5)
 shape = SubResource("RectangleShape2D_v3ofe")
