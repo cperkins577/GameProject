@@ -1,4 +1,14 @@
 res://scenes/world.tscn
 res://scenes/player.tscn
-res://scenes/rooms.tscn
-res://scripts/player.gd
+res://scenes/roomprefab/rooms.tscn
+res://scenes/Room_Templates.tscn
+res://scenes/Room_Templates.gd
+res://scripts/Room_Spawner.gd
+res://scenes/roomprefab/b.tscn
+res://scenes/roomprefab/l.tscn
+res://scenes/roomprefab/lb.tscn
+res://scenes/roomprefab/lr.tscn
+res://scenes/roomprefab/r.tscn
+res://scenes/roomprefab/t.tscn
+res://scenes/roomprefab/tb.tscn
+res://scenes/roomprefab/tr.tscn
