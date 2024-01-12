@@ -1,0 +1,18 @@
+[gd_scene load_steps=10 format=3 uid="uid://cf85enefpci4r"]
+
+[ext_resource type="Script" path="res://scripts/Room_Templates.gd" id="1_8fxdh"]
+[ext_resource type="PackedScene" uid="uid://nyoyq80vk262" path="res://scenes/roomprefab/lb.tscn" id="2_am6w1"]
+[ext_resource type="PackedScene" uid="uid://c3yepcprypnwp" path="res://scenes/roomprefab/tb.tscn" id="3_l17i6"]
+[ext_resource type="PackedScene" uid="uid://brojwsbcwnt1s" path="res://scenes/roomprefab/b.tscn" id="4_mnu0x"]
+[ext_resource type="PackedScene" uid="uid://2qw1w6c8vclx" path="res://scenes/roomprefab/l.tscn" id="5_esee1"]
+[ext_resource type="PackedScene" uid="uid://de1loe8p3nac8" path="res://scenes/roomprefab/lr.tscn" id="6_4rn5p"]
+[ext_resource type="PackedScene" uid="uid://deskuga4wmhtu" path="res://scenes/roomprefab/t.tscn" id="7_heb74"]
+[ext_resource type="PackedScene" uid="uid://dx4h3sr2gagwn" path="res://scenes/roomprefab/tr.tscn" id="8_dpct6"]
+[ext_resource type="PackedScene" uid="uid://b8rom4xmely5f" path="res://scenes/roomprefab/r.tscn" id="9_gc4hl"]
+
+[node name="Room Templates" type="Node"]
+script = ExtResource("1_8fxdh")
+bottom_rooms = [ExtResource("2_am6w1"), ExtResource("3_l17i6"), ExtResource("4_mnu0x")]
+left_rooms = [ExtResource("5_esee1"), ExtResource("2_am6w1"), ExtResource("6_4rn5p")]
+top_rooms = [ExtResource("7_heb74"), ExtResource("3_l17i6"), ExtResource("8_dpct6")]
+right_rooms = [ExtResource("9_gc4hl"), ExtResource("8_dpct6"), ExtResource("6_4rn5p")]

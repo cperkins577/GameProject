@@ -15,6 +15,10 @@ run/main_scene="res://scenes/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://art/icon.svg"
 
+[autoload]
+
+RoomTemplates="*res://scenes/Room_Templates.tscn"
+
 [display]
 
 window/stretch/mode="viewport"
