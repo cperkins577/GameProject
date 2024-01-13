@@ -926,7 +926,7 @@ sources/0 = SubResource("TileSetAtlasSource_6x5as")
 
 [node name="T" type="Node2D"]
 y_sort_enabled = true
-position = Vector2(840, 272)
+position = Vector2(568, 512)
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true

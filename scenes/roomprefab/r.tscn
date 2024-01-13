@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://b8rom4xmely5f"]
+[gd_scene load_steps=7 format=3 uid="uid://b8rom4xmely5f"]
 
 [ext_resource type="Texture2D" uid="uid://b6r3pjbcbhcmv" path="res://art/Tiles.png" id="1_0xxx2"]
 [ext_resource type="Script" path="res://scripts/Room_Spawner.gd" id="2_q8wvr"]
+[ext_resource type="Script" path="res://scenes/roomprefab/spawn_room.gd" id="3_nf0b1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6x5as"]
 texture = ExtResource("1_0xxx2")
@@ -926,7 +927,7 @@ sources/0 = SubResource("TileSetAtlasSource_6x5as")
 
 [node name="R" type="Node2D"]
 y_sort_enabled = true
-position = Vector2(848, 248)
+position = Vector2(136, 296)
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
@@ -944,6 +945,7 @@ script = ExtResource("2_q8wvr")
 opening_direction = 2
 
 [node name="Area2D" type="Area2D" parent="Spawn_Point2"]
+script = ExtResource("3_nf0b1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spawn_Point2/Area2D"]
 shape = SubResource("RectangleShape2D_egd8p")
