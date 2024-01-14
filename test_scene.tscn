@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://cgffuyee3b6k4"]
+[gd_scene load_steps=3 format=3 uid="uid://dompuqqmli3ia"]
 
 [ext_resource type="PackedScene" uid="uid://deskuga4wmhtu" path="res://scenes/roomprefab/t.tscn" id="1_62k07"]
 [ext_resource type="PackedScene" uid="uid://brojwsbcwnt1s" path="res://scenes/roomprefab/b.tscn" id="2_1wpry"]
@@ -7,7 +7,7 @@
 position = Vector2(-232, 200)
 
 [node name="T" parent="." instance=ExtResource("1_62k07")]
-position = Vector2(1208, 256)
+position = Vector2(656, 256)
 
 [node name="B" parent="." instance=ExtResource("2_1wpry")]
-position = Vector2(1208, 0)
+position = Vector2(656, 0)
