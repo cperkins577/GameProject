@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://ctyrfwb6hgt2w"]
+[gd_scene load_steps=11 format=3 uid="uid://ctyrfwb6hgt2w"]
 
 [ext_resource type="Script" path="res://scripts/Room_Templates.gd" id="1_8fxdh"]
 [ext_resource type="PackedScene" uid="uid://nyoyq80vk262" path="res://scenes/roomprefab/lb.tscn" id="2_am6w1"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://deskuga4wmhtu" path="res://scenes/roomprefab/t.tscn" id="7_heb74"]
 [ext_resource type="PackedScene" uid="uid://dx4h3sr2gagwn" path="res://scenes/roomprefab/tr.tscn" id="8_dpct6"]
 [ext_resource type="PackedScene" uid="uid://b8rom4xmely5f" path="res://scenes/roomprefab/r.tscn" id="9_gc4hl"]
+[ext_resource type="PackedScene" uid="uid://cktpx0h8krjn6" path="res://scenes/boss.tscn" id="10_vhay5"]
 
 [node name="Room Templates" type="Node"]
 script = ExtResource("1_8fxdh")
@@ -16,3 +17,5 @@ bottom_rooms = [ExtResource("2_am6w1"), ExtResource("3_l17i6"), ExtResource("4_m
 left_rooms = [ExtResource("5_esee1"), ExtResource("6_4rn5p"), ExtResource("2_am6w1")]
 top_rooms = [ExtResource("7_heb74"), ExtResource("3_l17i6"), ExtResource("8_dpct6")]
 right_rooms = [ExtResource("9_gc4hl"), ExtResource("8_dpct6"), ExtResource("6_4rn5p")]
+wait_time = 2.0
+boss_scene = ExtResource("10_vhay5")

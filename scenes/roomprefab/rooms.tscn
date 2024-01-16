@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://bih7inbtwqopv"]
+[gd_scene load_steps=8 format=3 uid="uid://bih7inbtwqopv"]
 
+[ext_resource type="Script" path="res://scripts/add_room.gd" id="1_g3pp2"]
 [ext_resource type="Texture2D" uid="uid://b6r3pjbcbhcmv" path="res://art/Tiles.png" id="1_il1f3"]
 [ext_resource type="Script" path="res://scripts/Room_Spawner.gd" id="2_axa3h"]
 
@@ -929,6 +930,7 @@ sources/0 = SubResource("TileSetAtlasSource_6x5as")
 [node name="Main" type="Node2D"]
 y_sort_enabled = true
 position = Vector2(256, 192)
+script = ExtResource("1_g3pp2")
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
