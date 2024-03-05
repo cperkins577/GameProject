@@ -12,6 +12,7 @@ var rooms = []
 var spawned_boss: bool
 @export var boss_scene: PackedScene
 
+
 func _get(property):
 	match property:
 		"bottom_rooms":
