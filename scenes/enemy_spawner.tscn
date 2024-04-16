@@ -1,6 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://dsbr4oby7ys6p"]
+[gd_scene load_steps=2 format=3 uid="uid://btmnsxio86pg"]
 
-[ext_resource type="Script" path="res://scripts/EnemySpawner.gd" id="1_p038j"]
+[sub_resource type="GDScript" id="GDScript_4qlyb"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+"
 
 [node name="EnemySpawner" type="Node2D"]
-script = ExtResource("1_p038j")
+script = SubResource("GDScript_4qlyb")

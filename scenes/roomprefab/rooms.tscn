@@ -931,6 +931,7 @@ sources/0 = SubResource("TileSetAtlasSource_6x5as")
 y_sort_enabled = true
 position = Vector2(256, 192)
 script = ExtResource("1_g3pp2")
+allow_enemies = false
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true

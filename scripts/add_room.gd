@@ -3,6 +3,7 @@ extends Node2D
 @onready var templates = get_node("/root/RoomTemplates")
 
 @export var room_difficulty = 10
+@export var allow_enemies = true
 var current_cr = 0
 #Room size in px
 const ROOM_SIZE = 80
@@ -13,7 +14,8 @@ var enemy_scene = preload("res://scenes/enemy.tscn")
 func _ready():
 	var room = get_node(get_path())
 	templates.rooms.append(room)
-	spawn_enemies()
+	if allow_enemies:
+		spawn_enemies()
 
 func spawn_enemies():
 	print("Spawning enemy")

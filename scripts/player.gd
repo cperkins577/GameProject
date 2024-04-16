@@ -1,4 +1,4 @@
-extends CharacterBody2D
+class_name Player extends CharacterBody2D
 @export var speed = 100
 var screen_size
 var current_dir
