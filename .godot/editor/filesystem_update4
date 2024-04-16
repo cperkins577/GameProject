@@ -1,9 +1,10 @@
-res://scenes/roomprefab/b.tscn
-res://scripts/add_room.gd
+res://scenes/enemy.tscn
+res://scripts/boss.gd
 res://scenes/world.tscn
 res://scenes/player.tscn
 res://scenes/roomprefab/rooms.tscn
 res://scenes/Room_Templates.tscn
+res://scenes/roomprefab/b.tscn
 res://scenes/roomprefab/l.tscn
 res://scenes/roomprefab/lb.tscn
 res://scenes/roomprefab/lr.tscn
@@ -11,7 +12,10 @@ res://scenes/roomprefab/r.tscn
 res://scenes/roomprefab/t.tscn
 res://scenes/roomprefab/tb.tscn
 res://scenes/roomprefab/tr.tscn
-res://scenes/boss.tscn
 res://scenes/enemy_spawner.tscn
-res://scenes/enemy.tscn
-res://scripts/boss.gd
+res://scripts/player.gd
+res://PlayerCharacter.tscn
+res://Player.gd
+res://scenes/boss.tscn
+res://scripts/enemy.gd
+res://scripts/add_room.gd
